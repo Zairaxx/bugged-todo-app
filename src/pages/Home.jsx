@@ -5,6 +5,7 @@ const Home = (props) => {
     <div className="homepage">
       <Link to="/AddTodo">Add todo</Link>
       <div>
+        <h2>Todo-list</h2>
         <ul>
           {props.todos.map((todo, i) => {
               <Todo
