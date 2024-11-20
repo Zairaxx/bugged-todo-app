@@ -7,14 +7,12 @@ const Home = (props) => {
       <div>
         <ul>
           {props.todos.map((todo, i) => {
-            return (
               <Todo
                 key={i}
                 data={todo}
                 index={i}
                 completeTodo={props.completeTodo}
               />
-            );
           })}
         </ul>
       </div>
