@@ -1,6 +1,6 @@
 Ankademin har anlitat dig för att hitta buggar i deras interna todo-applikation. Hjälp dem att lösa deras problem!
 
-Bugg 1: Det finns två todos i vårt state vid start av applikationen. Dessa visas inte ut korrekt - fixa det!
+Bugg 1: Det finns två todos i vårt state vid start av applikationen. Dessa visas inte ut korrekt - fixa det! (Tips: Felet ligger i Home-komponenten)
 
 Bugg 2: Add todo-länken som ska navigera oss till en sida för att lägga till nya todos funkar inte som den ska. Varför?
 
