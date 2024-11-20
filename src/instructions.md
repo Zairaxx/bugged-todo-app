@@ -6,6 +6,7 @@ Bugg 2: Add todo-länken som ska navigera oss till en sida för att lägga till 
 
 Bugg 3: Nu fungerar navigationen - Men knappen för att lägga till todos är trasig (OBS! Funktionen är korrekt).
 
-Bugg 4: Det är något fel i funktionen för att utföra en todo. Kan du hitta felet? OBS: Du får endast ändra en kodrad i funktionen.
+Bugg 4: Det är något fel i funktionen för att utföra en todo. Kan du hitta felet?
+Tips: Du ska endast ändra en kodrad i funktionen.
 
 Bugg 5: Kan du göra så att complete-knappen försvinner från alla utförda todos?
