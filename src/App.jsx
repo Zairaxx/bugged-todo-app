@@ -29,7 +29,6 @@ export default function App() {
     todoInput.value = "";
     setTodos(allTodos);
   };
-  //Skapa complete todo
 
   let completeTodo = (index) => {
     let newTodoList = [...todos];
