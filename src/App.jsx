@@ -14,14 +14,18 @@ export default function App() {
       completed: false
     }
   ]);
+
   let addTodo = () => {
     let todoInput = document.querySelector("#todoInput");
     let newTodo = {
       todo: todoInput.value,
       completed: false
     };
+
+
     let allTodos = [...todos];
     allTodos.push(newTodo);
+    
     allTodos.sort((a, b) => {
       return a.completed - b.completed;
     });
@@ -31,23 +35,23 @@ export default function App() {
   };
 
   let completeTodo = (index) => {
+
+  
     let newTodoList = [...todos];
 
     newTodoList[index].completed = true;
     newTodoList.sort((a, b) => {
       return a.completed - b.completed;
     });
-    setTodos(todos);
+
+    setTodos(newTodoList);
   };
 
   return (
     <div className="App">
       <h1>Todo application</h1>
       <Routes>
-        <Route
-          path="/"
-          element={<Home todos={todos} completeTodo={completeTodo} />}
-        />
+        <Route path="/" element={<Home todos={todos} completeTodo={completeTodo} />} />
         <Route path="/new" element={<AddTodo addTodo={addTodo} />} />
       </Routes>
     </div>

@@ -10,7 +10,7 @@ const AddTodo = (props) => {
         id="todoInput"
         placeholder="What do you need to do today?"
       />
-      <button>Add todo</button>
+      <button onClick={props.addTodo}>Add todo</button>
     </>
   );
 };

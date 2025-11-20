@@ -4,7 +4,7 @@ Bugg 1: Det finns två todos i vårt state vid start av applikationen. Dessa vis
 
 Bugg 2: Add todo-länken som ska navigera oss till en sida för att lägga till nya todos funkar inte som den ska. Varför?
 
-Bugg 3: Nu fungerar navigationen - Men knappen för att lägga till todos är trasig 
+Bugg 3: Nu fungerar navigationen - Men knappen för att lägga till todos är trasig.
 
 Bugg 4: Det är något fel i funktionen för att utföra en todo. Kan du hitta felet?
 

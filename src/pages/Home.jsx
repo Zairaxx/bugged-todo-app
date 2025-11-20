@@ -3,12 +3,12 @@ import Todo from "../components/Todo";
 const Home = (props) => {
   return (
     <div className="homepage">
-      <Link to="/AddTodo">Add todo</Link>
+      <Link to="/new">Add todo</Link>
       <div>
         <h2>Todo-list</h2>
         <ul>
           {props.todos.map((todo, i) => {
-              <Todo
+              return <Todo
                 key={i}
                 data={todo}
                 index={i}
